@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "electron:serve",
+			"problemMatcher": [],
+			"label": "npm: electron:serve",
+			"detail": "concurrently -k \"cross-env BROWSER=none yarn start\" \"yarn electron:start\"",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
